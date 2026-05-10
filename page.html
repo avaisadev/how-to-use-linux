@@ -52,6 +52,10 @@
                 <i class="fas fa-film"></i>
                 <span class="nav-label">movies</span>
             </a>
+            <a href="#" target="_blank" class="nav-item link-bible">
+                <i class="fa-solid fa-book"></i>
+                <span class="nav-label">the bible</span>
+            </a>
             <a href="https://discord.gg/Y4uMau4dGy" target="_blank" class="nav-item">
                 <i class="fa-brands fa-discord"></i>
                 <span class="nav-label">discord</span>
@@ -109,8 +113,8 @@ const cvs=document.getElementById('starfield');const ctx=cvs.getContext('2d');le
         if (classes.includes('movies') || text.includes('movies') || href.includes('movies')) {
             return "movies.svg";
         }
-        if (classes.includes('ai') || text.includes('ai') || href.includes('ai')) {
-            return "ai.svg";
+        if (classes.includes('bible') || text.includes('bible') || href.includes('bible')) {
+            return "b.svg";
         }
         if (classes.includes('algebra') || text.includes('algebra') || href.includes('algebra')) {
             return "algebra.svg";
